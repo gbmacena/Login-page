@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F8FB;   
+}
+main{
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 554px;
+    border-radius: 5px;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 30px;
+    color: #171645;
+    font-size: 32px;
+    font-family: "Nokora", sans-serif;
+    font-weight: 700;
+}
+
+.inputsContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main input{
+    display: flex;
+    width: 410px;
+    height: 75px;
+    margin-bottom: 15px;
+    background-color: #f8f8fb;
+    border: 1px solid #dadaf2;
+    border-radius: 4px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: #171645;
+    font-weight: 300;
+}
+.buttonsContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginButton{
+    width: 410px;
+    height: 75px;
+    background-color: #171645;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.loginButton:hover , .continueButton:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+main span{
+    padding: 30px;
+    font-weight: 300;
+}
+.continueButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 75px;
+    margin-bottom: 15px;
+    background-color: #f8f8fb;
+    border: 1px solid #dadaf2;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.continueButton p {
+    padding-left: 8px;
+}
+main a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 15px 0 30px 0;
+    text-decoration: none;
+}
+main a:hover{
+    filter: contrast(50%);
+}
